@@ -68,6 +68,9 @@ public class BankAccount {
     public static int numberOfAccounts(){
         return numberOfAccounts;
     }
+    public static double totalAmount(){
+        return totalAmount;
+    }
 
     //SETTERS
     public void setCheckingBalance(double checkingBalance){
